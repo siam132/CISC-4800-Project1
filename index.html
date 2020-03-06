@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>PC Builder</title>
+  </head>
+
+  <body id="body">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">PC Builder</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="#browse"
+            >Browse Parts 🖥 <span class="sr-only">(current)</span></a
+          >
+          <a class="nav-item nav-link" href="#build">Build PC 🧰 </a>
+          <a class="nav-item nav-link" href="#contact">Address 📢  </a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="row" id="browse">
+      <img src="/assets/gaming_pc.jpg" class="browse-img" />
+      <div class="center">
+        <h1 class="landing-text">PC Builder 🚀</h1>
+        <div class="row">
+          <div class="col-12 h2 py-5">
+            <h2 class="landing-about-text">
+              Start you journey, build your first Desktop, Be in control
+            </h2>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row cart-bg">
+      <div class="col">
+        <span><i class="shopping-cart"></i></span>
+      </div>
+    </div>
+
+    <div class="row build-seciton" id="build">
+      <div class="row m-3">
+        <div class="col-3 col-md-4 py-4">
+          <div class="card">
+            <span class="badge badge-danger">Hottest Deal 🔥 </span>
+            <img src="/assets/mobo.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p class="card-text">
+                MSI PERFORMANCE GAMING B450M GAMING PLUS AM4 AMD B450 SATA 6Gb/s
+                USB 3.1 HDMI Micro ATX AMD Motherboard
+              </p>
+              <a href="#">Amazon</a>
+              <p>Lowest Price: $89.99</p>
+              <button
+                onclick="Bought(0)"
+                onmouseover="Hover(1)"
+                onmouseout="UnHover(1)"
+                type="button"
+              >
+                Add to cart
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-3 col-md-4 py-4">
+          <div class="card">
+            <span class="badge badge-warning">Trending 💸 </span>
+            <img src="/assets/gpu.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p class="card-text">
+                MSI GeForce GTX 980 Ti DirectX 12 GTX 980Ti 6GD5 6GB 384-Bit
+                GDDR5 PCI Express 3.0 HDCP Ready SLI Support ATX Video Card
+              </p>
+              <a href="#">Amazon</a>
+              <p>Lowest Price: $339.99</p>
+              <button
+                onclick="Bought(1)"
+                onmouseover="Hover(2)"
+                onmouseout="UnHover(2)"
+                type="button"
+              >
+                Add to cart
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-3 col-md-4 py-4">
+          <div class="card">
+            <span class="badge badge-success">Great value 📦 </span>
+            <img src="/assets/ram.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p class="card-text">
+                CORSAIR Vengeance RGB Pro 32GB (4 x 8GB) 288-Pin DDR4 SDRAM DDR4
+                3600 (PC4 28800) Desktop Memory Model CMW32GX4M4D3600C18
+              </p>
+              <a href="#">Amazon</a>
+              <p>Lowest Price: $129.99</p>
+              <button
+                onclick="Bought(2)"
+                onmouseover="Hover(3)"
+                onmouseout="UnHover(3)"
+                class="add-to-cart"
+                type="button"
+              >
+                Add to cart
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-3 col-md-4 py-4">
+          <div class="card">
+            <span class="badge badge-success">Great value 📦 </span>
+            <img
+              src="/assets/water_cooler.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Cooler Master MasterLiquid ML360R Addressable RGB AIO CPU Liquid
+                Cooler, 36 Independently-Controlled LEDS, Robust Sleeved FEP
+                Tubing, Triple 120mm ARGB Air Balance MF120R ARGB Fans
+              </p>
+              <a href="#">Amazon</a>
+              <p>Lowest Price: $152.99</p>
+              <button
+                onclick="Bought(3)"
+                onmouseover="Hover(4)"
+                onmouseout="UnHover(4)"
+                class="add-to-cart"
+                type="button"
+              >
+                Add to cart
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-3 col-md-4 py-4">
+          <div class="card">
+            <span class="badge badge-success">Great value 📦 </span>
+            <img
+              src="/assets/Dominator_ram.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text">
+                CORSAIR Dominator Platinum 32GB (4 x 8GB) 288-Pin DDR4 SDRAM
+                DDR4 3200 (PC4 25600) Desktop Memory Model CMD32GX4M4C3200C16
+              </p>
+              <a href="#">Amazon</a>
+              <p>Lowest Price: $190.99</p>
+              <button
+                onclick="Bought(4)"
+                onmouseover="Hover(5)"
+                onmouseout="UnHover(5)"
+                class="add-to-cart"
+                type="button"
+              >
+                Add to cart
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-3 col-md-4 py-4">
+          <div class="card">
+            <span class="badge badge-success">Great value 📦 </span>
+            <img src="/assets/pc_case.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p class="card-text">
+                DIYPC Skyline-06-WB Black SECC ATX Full Tower Computer Case
+              </p>
+              <a href="#">Amazon</a>
+              <p>Lowest Price: $74.99</p>
+              <button
+                onclick="Bought(5)"
+                onmouseover="Hover(6)"
+                onmouseout="UnHover(6)"
+                class="add-to-cart"
+                type="button"
+              >
+                Add to cart
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-3 col-md-4 py-4">
+          <div class="card">
+            <span class="badge badge-success">Great value 📦 </span>
+            <img
+              src="/assets/water_cooler_2.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Enermax LIQTECH II 360 ELC-LTTO360-TBP-W 360mm AIO Liquid CPU Cooler
+              </p>
+              <a href="#">Amazon</a>
+              <p>Lowest Price: $152.99</p>
+              <button
+                onclick="Bought(6)"
+                onmouseover="Hover(7)"
+                onmouseout="UnHover(7)"
+                class="add-to-cart"
+                type="button"
+              >
+                Add to cart
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row m-4">
+        <div class="col-7">
+          <button onclick="Build()" class="btn btn-danger px-5 py-3">
+            Build 🏗
+          </button>
+        </div>
+      </div>
+      <div id="myProgress">
+        <div id="myBar"></div>
+      </div>
+      <br />
+      <h2 class="col-7" id="loading-text"></h2>
+    </div>
+
+    <div class="row contact-section" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="column">
+            <h2>Please enter your shipping info</h2>
+          </div>
+          <div class="column">
+            <form action="/action_page.php">
+              <label for="fname">First Name</label>
+              <input
+                type="text"
+                id="fname"
+                name="firstname"
+                placeholder="Your name.."
+              />
+              <label for="lname">Last Name</label>
+              <input
+                type="text"
+                id="lname"
+                name="lastname"
+                placeholder="Your last name.."
+              />
+              <label for="city">City</label>
+              <select id="city" name="city">
+                <option value="new york">New York</option>
+                <option value="london">London</option>
+                <option value="toronto">Toronto</option>
+                <option value="japan">Japan</option>
+              </select>
+              <label for="subject">Stree address</label>
+              <textarea
+                id="subject"
+                name="subject"
+                placeholder="Write something..."
+                style="height:170px"
+              ></textarea>
+              <input type="submit" value="Submit" />
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <script src="app.js"></script>
+  </body>
+</html>
